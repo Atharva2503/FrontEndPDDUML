@@ -1,0 +1,19 @@
+
+.container{
+    font-size:x-large;
+    font-style:oblique;
+    /* background-image: url(/home/atharva/MyDrive/Major\ Project/Front-End/pdduml/public/WhatsApp Image 2023-02-04 at 9.33.50 PM.jpeg); */
+    background-color: aquamarine;
+    color:white;
+    border-style: solid;
+    border-color: white;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 50%;
+   
+}
+h1,p{
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+}
