@@ -3,7 +3,7 @@
     text-align: center;
     border-style: solid;
     border-color: rgb(40, 224, 68);
-    padding: 5%;
+    padding: 2%;
     margin: 2% ;
     border-radius: 15%;
     text-overflow:clip;
@@ -29,4 +29,15 @@
     border-radius: 15%;
     text-overflow:clip;
 
+}
+
+button{
+    padding-top:25 ;
+    padding-bottom: 25;
+    padding-left: 40;
+    padding-right: 40;
+    background-color: gray;
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
 }

@@ -5,10 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: url(/home/atharva/MyDrive/Major Project/Front-End/pdduml/public/WhatsApp Image 2023-02-04 at 9.33.51 PM.jpeg); */
+  background-image: url("/home/tanmay/Desktop/Tanmay Engineering/BEProject/FrontEnd/pddumlFrontend/public/WhatsApp Image 2023-02-04 at 9.33.51 PM.jpeg");
   background-color: aqua;
 }
-Feedback_Form{
+.Feedback_Form{
   background-color: aliceblue;
   text-align: center;
   border-style: solid;

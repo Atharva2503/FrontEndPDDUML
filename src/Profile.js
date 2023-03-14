@@ -17,7 +17,7 @@ const Profile = () => {
   })
   return (
     <div>
-      <form>
+
       <h2 className="mb-5 text-center">
          Capture Photo of Leaf
       </h2>
@@ -57,7 +57,7 @@ const Profile = () => {
             Capture
           </button>
         )}
-      </div>
+      </div><div>
       <p><strong>Select Plant:                      </strong>
       
       <select name="plant" id="plant" onChange={(name)=>setPlant(name.target.value)} required>
@@ -69,7 +69,7 @@ const Profile = () => {
       onClick={()=>{axios.post("http://127.0.0.1:8000/test/",{data:0}).then(data=>console.log(data.data))}}/></p>
 
 <p><input type="reset" value="Reset" /></p>
-      </form>
+     </div>
     </div>
   )
 }

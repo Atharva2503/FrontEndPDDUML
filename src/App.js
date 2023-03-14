@@ -7,9 +7,9 @@ import Profile from './Profile';
 function App() {
   const [textToggle, textToggleState] = useState(true)
   return (
-    <div class="App">
-       <div class="Tog">
-       <button onClick={ () => textToggleState(!textToggle) }>Upload or Capture</button>
+    <div className="App">
+       <div className="Tog">
+       <button className='btnHead' onClick={ () => textToggleState(!textToggle) }>Upload or Capture</button>
        </div>
        {
  textToggle ?

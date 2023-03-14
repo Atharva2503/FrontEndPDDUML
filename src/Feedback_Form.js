@@ -9,6 +9,7 @@ function Feedback_Form(){
 
     return(<div className="App">
        <div class="Form">
+        
     <strong>Feedback Form for Incorrectly Classified Images</strong>
      <form>
       <p><strong>Upload Incorrectly Classified Image of leaf:              </strong>
