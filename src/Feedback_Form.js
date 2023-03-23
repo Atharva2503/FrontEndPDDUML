@@ -12,8 +12,8 @@ function Feedback_Form(){
         
     <strong>Feedback Form for Incorrectly Classified Images</strong>
      <form>
-      <p><strong>Upload Incorrectly Classified Image of leaf:              </strong>
-     <input type="file" name="imagefile" id="imgfile" onChange={(name)=>setImgfile(name.target.value)} required /></p>
+      <p><strong>Upload Incorrectly Classified Image of leaf:              </strong></p>
+     <p><input type="file" name="imagefile" className='btn' id="imgfile" onChange={(name)=>setImgfile(name.target.value)} required /></p>
       
 
       <p><strong>Select Identified Disease:                      </strong>
@@ -30,10 +30,10 @@ function Feedback_Form(){
         <option value="">Papper Bell Healthy </option>
         <option value="">Potato Healthy</option>
       </select></p>
-      <p><input type="submit" value="Submit" 
+      <p><input type="submit" value="Submit" className='btn'
       onClick={()=>{axios.post("http://127.0.0.1:8000/test/",{data:0}).then(data=>console.log(data.data))}}/></p>
 
-      <p><input type="reset" value="Reset" /></p>
+      <p><input type="reset" value="Reset" className='btn'/></p>
      </form>
     
     </div>

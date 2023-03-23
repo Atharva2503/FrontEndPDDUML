@@ -1,8 +1,9 @@
 import React, { Component }  from 'react';
 import { useState } from 'react';
 import './App.css';
+import Camera from './Camera';
 import Form from './Form';
-import Profile from './Profile';
+
 
 function App() {
   const [textToggle, textToggleState] = useState(true)
@@ -16,7 +17,7 @@ function App() {
  <Form />
 
  :
- <div class="Cam"><Profile /> </div>
+<div class="Cam"><Camera /> </div>
 }
     
     

@@ -1,4 +1,6 @@
 .Form{
+    height:auto;
+    width: 90%;
     background-color: aliceblue;
     text-align: center;
     border-style: solid;
