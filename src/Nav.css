@@ -5,11 +5,11 @@
     background-image: url("./WhatsApp\ Image\ 2023-02-04\ at\ 9.33.50\ PM.jpeg");
     background-color: aquamarine;
     color:white;
-    border-style: solid;
+    border-style: solid; 
     border-color: white;
     padding: 2%;
     margin: 1%;
-    border-radius: 50%;
+    border-radius: 5%;
    
 }
 h1,p{
@@ -42,7 +42,7 @@ h1,p{
     font-size: medium;
     font-weight: bolder;
     border:2px solid #032e05;
-    border-radius: 5px;
+    border-radius: 5%;
     
     
     
@@ -59,7 +59,7 @@ h1,p{
     font-size: medium;
     font-weight: bolder;
     border:2px solid #032e05;
-    border-radius: 5px;
+    border-radius: 5%;
 }
 .box{
     flex:1;

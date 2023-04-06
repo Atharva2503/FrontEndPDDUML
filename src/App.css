@@ -7,7 +7,7 @@
     border-color: rgb(40, 224, 68);
     padding: 2%;
     margin: 2% ;
-    border-radius: 15%;
+    border-radius: 5%;
     text-overflow:clip;
 }
 .Cam{
@@ -17,7 +17,7 @@
     border-color: rgb(40, 224, 68);
     padding: 1%;
     margin: 2% ;
-    border-radius: 15%;
+    border-radius: 5%;
     text-overflow:clip;
 
 }
@@ -28,7 +28,7 @@
     border-color: rgb(40, 224, 68);
     padding: 1%;
     margin: 1% ;
-    border-radius: 15%;
+    border-radius: 5%;
     text-overflow:clip;
 
 }
